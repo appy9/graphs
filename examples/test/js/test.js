@@ -3,24 +3,25 @@ var graphViewer_config = {
     input : '../data/graph.gexf',
     nodeConfig : {
         'Primary Skill': {
-            color: '#FF6600',
-            size: 25,
-            hidden: false,
-            type: "Primary Skill"
+            color: '#A5C5FF',
+            size: 80,
+            hidden: false
+            //type: "Primary Skill"
+            //type: 'primary_skill'
         },
         'Prerequisite Skill': {
-            color: '#FFDC65',
-            size: 15,
+            color: '#BEBEBE',
+            size: 60,
             hidden: false
         },
         'Parent Skill': {
             color: '#5FCABE',
-            size: 15,
+            size: 60,
             hidden: false
         },
-        Chunk: {
-            color: '#A9D0FD',
-            size: 10,
+        'Chunk': {
+            color: 'green',
+            size: 60,
             hidden: false
         }
     },
@@ -45,11 +46,12 @@ var graphViewer_config = {
             maxEdgeSize: 5,
             labelThreshold: 20,
             minNodeSize: 1,
-            maxNodeSize: 25,
+            maxNodeSize: 80,
             defaultNodeBorderColor: '#777',
             edgeColor: 'source',
             drawLabels: false,
-            autoRescale : true
+            autoRescale : true,
+            drawEdges:false
         }
     }/*,
     callBacks : {

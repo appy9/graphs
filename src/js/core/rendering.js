@@ -25,5 +25,6 @@ adaptiveGraph.Rendering = function (sigmaInstance) {
         //e.type = 'curve';
         e.originalColor = e.color;
     });
+    //sigmaInstance.settings({drawEdges : true});
 };
 

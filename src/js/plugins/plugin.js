@@ -1,6 +1,6 @@
 adaptiveGraph.applyPlugins = function(sigmaInstance){
 
-    sigma.plugins.layout(sigmaInstance);
+    //sigma.plugins.layout(sigmaInstance);
 
     sigma.plugins.dragNodes(sigmaInstance, sigmaInstance.renderers[0]);
 
