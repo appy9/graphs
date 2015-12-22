@@ -20,6 +20,8 @@ sigma.parsers.gexf(graphViewer_config.input,
     function (sigmaInstance) {
         adaptiveGraph.Rendering(sigmaInstance);
 
+        adaptiveGraph.layout(sigmaInstance);
+
         //sigmaInstance.refresh();
 
         adaptiveGraph.applyPlugins(sigmaInstance);
