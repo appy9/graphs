@@ -21,8 +21,8 @@ var graphViewer_config = {
             hidden: false
         },
         'Chunk': {
-            color: 'green',
-            startColor: '#E3EDFF',
+            color: '#FFF',
+            startColor: 'red',
             size: 60,
             hidden: false
         }
