@@ -15,8 +15,8 @@ var graphViewer_config = {
             hidden: false
         },
         'Parent Skill': {
-            color: '#5FCABE',
-            startColor: '#E3EDFF',
+            color: '#9BBB59',
+            startColor: '#E7EED7',
             size: 60,
             hidden: false
         },
