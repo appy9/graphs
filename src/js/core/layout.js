@@ -12,38 +12,41 @@ adaptiveGraph.layout = function(sigmaInstance){
             toKeep[nodeId] = node;
             //console.log(toKeep);
             node.x = (region)*j;
-            node.y = 20;
+            node.y = 160;
             for (k in toKeep){
                 //console.log(toKeep[k]);
                 if(toKeep[k].type == "Prerequisite Skill"){
                     m++;
+                    var count = nodeType[node.type].length ;
+                    var width = sigmaInstance.renderers[0].width;
+                    var region = width/count;
                     toKeep[k].x = (region/2)*m;
-                    toKeep[k].y = -80;
+                    toKeep[k].y = -100;
                 }
                 if(toKeep[k].type == "Parent Skill"){
                     n++;
                     toKeep[k].x = (region/2)*n;
-                    toKeep[k].y = -140;
+                    toKeep[k].y = -200;
                 }
                 if(toKeep[k].type == "Assessment"){
                     p++;
-                    toKeep[k].x = (region/2)*p;
-                    toKeep[k].y = 80;
+                    toKeep[k].x = (region/1.5)*p;
+                    toKeep[k].y = 400;
                 }
                 if(toKeep[k].type == "Reading"){
                     q++;
                     toKeep[k].x = (region/2)*q;
-                    toKeep[k].y = -200;
+                    toKeep[k].y = -300;
                 }
                 if(toKeep[k].type == "Practice"){
                     r++;
                     toKeep[k].x = (region/2)*r;
-                    toKeep[k].y = -260;
+                    toKeep[k].y = -300;
                 }
                 if(toKeep[k].type == "Video"){
                     s++;
                     toKeep[k].x = (region/2)*s;
-                    toKeep[k].y = -320;
+                    toKeep[k].y = -300;
                 }
 
             }
