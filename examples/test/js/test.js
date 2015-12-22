@@ -4,23 +4,25 @@ var graphViewer_config = {
     nodeConfig : {
         'Primary Skill': {
             color: '#A5C5FF',
+            startColor: '#E6EDFF',
             size: 80,
             hidden: false
-            //type: "Primary Skill"
-            //type: 'primary_skill'
         },
         'Prerequisite Skill': {
             color: '#BEBEBE',
+            startColor: '#ECECEC',
             size: 60,
             hidden: false
         },
         'Parent Skill': {
             color: '#5FCABE',
+            startColor: '#E3EDFF',
             size: 60,
             hidden: false
         },
         'Chunk': {
             color: 'green',
+            startColor: '#E3EDFF',
             size: 60,
             hidden: false
         }

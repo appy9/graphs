@@ -19,6 +19,7 @@ adaptiveGraph.Rendering = function (sigmaInstance) {
         else
             n.type = n.attributes['Node Subtype'];
         n.originalColor = n.color;
+        n.startColor = graphViewer_config.nodeConfig[n.attributes['Node Type']] ? graphViewer_config.nodeConfig[n.attributes['Node Type']].color : graphViewer_config.nodeConfig[n.attributes['Node Subtype']].startColor;
     });
     sigmaInstance.graph.edges().forEach(function (e) {
         e.type = "arrow";
