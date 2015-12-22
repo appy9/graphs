@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd">
+  <meta lastmodifieddate="2015-12-03">
+    <creator>Gephi 0.8.1</creator>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="directed" mode="static">
+			<attributes class="node">
+				<attribute id="0" title="nodeType" type="string">
+					<options>SKILL|CHUNK</options>
+				</attribute>
+				<attribute id="1" title="nodeName" type="string"/>
+				<attribute id="2" title="skillType" type="string">
+					<default>NULL</default>
+					<options>PARENTSKILL|PRIMARYSKILL|PREREQUISITESKILL</options>
+				</attribute>
+				<attribute id="3" title="strength" type="string"/>
+				<attribute id="4" title="chunkInteractionType" type="string"/>
+				<attribute id="5" title="chunkFileType" type="string"/>
+				<attribute id="6" title="chunkURL" type="string"/>
+				<attribute id="7" title="estimdatedTimespent" type="string"/>
+				<attribute id="8" title="estimatedScore" type="string"/>
+			</attributes>
+			<nodes>
+				<node id="0" label="MOS.WORD.C.4.1">
+					<attvalues>
+						<attvalue id="0" value="SKILL"/>
+						<attvalue id="1" value="Adding a multi-level list"/>
+						<attvalue id="2" value="PRIMARYSKILL"/>
+						
+					</attvalues>
+				</node>
+				<node id="1" label="MOS.WORD.C.4.2">
+					<attvalues>
+						<attvalue id="0" value="SKILL"/>
+						<attvalue id="1" value="Creating custom multi level list"/>
+						<attvalue id="2" value="PRIMARYSKILL"/>
+						
+					</attvalues>
+				</node>
+				<node id="2" label="MOS.WORD.C.4.3">
+					<attvalues>
+						<attvalue id="0" value="SKILL"/>
+						<attvalue id="1" value="Modifying style of a custom multi level list"/>
+						<attvalue id="2" value="PRIMARYSKILL"/>
+						
+					</attvalues>
+				</node>
+				<node id="3" label="MOS.WORD.C.3.4">
+					<attvalues>
+						<attvalue id="0" value="SKILL"/>
+						<attvalue id="1" value="Adding numbering or bullets"/>
+						<attvalue id="2" value="PREREQUISITESKILL"/>
+						<attvalue id="3" value="STRONG"/>
+					</attvalues>
+				</node>
+				<node id="4" label="MOS.WORD.C.3.6">
+					<attvalues>
+						<attvalue id="0" value="SKILL"/>
+						<attvalue id="1" value="Modifying list indentation"/>
+						<attvalue id="2" value="PREREQUISITESKILL"/>
+						<attvalue id="3" value="STRONG"/>
+					</attvalues>
+				</node>
+				<node id="5" label="MOS.WORD.B.2.1">
+					<attvalues>
+						<attvalue id="0" value="SKILL"/>
+						<attvalue id="1" value="Changing font attributes"/>
+						<attvalue id="2" value="PREREQUISITESKILL"/>
+						<attvalue id="3" value="STRONG"/>
+					</attvalues>
+				</node>
+				<node id="6" label="MOS.WORD.C.3.5">
+					<attvalues>
+						<attvalue id="0" value="SKILL"/>
+						<attvalue id="1" value="Creating custom bullets"/>
+						<attvalue id="2" value="PREREQUISITESKILL"/>
+						<attvalue id="3" value="STRONG"/>
+					</attvalues>
+				</node>
+				<node id="7" label="MOS.WORD.C.3.8">
+					<attvalues>
+						<attvalue id="0" value="SKILL"/>
+						<attvalue id="1" value="Increasing and decreasing list levels"/>
+						<attvalue id="2" value="PREREQUISITESKILL"/>
+						<attvalue id="3" value="MEDIUM"/>
+					</attvalues>
+				</node>
+				<node id="8" label="MOS.WORD.C.3.9">
+					<attvalues>
+						<attvalue id="0" value="SKILL"/>
+						<attvalue id="1" value="Modifying Numbering"/>
+						<attvalue id="2" value="PREREQUISITESKILL"/>
+						<attvalue id="3" value="MEDIUM"/>
+					</attvalues>
+				</node>
+				<node id="9" label="MOS.WORD.A.1">
+					<attvalues>
+						<attvalue id="0" value="SKILL"/>
+						<attvalue id="1" value="Create a document"/>
+						<attvalue id="2" value="PREREQUISITESKILL"/>
+						<attvalue id="3" value="MEDIUM"/>
+					</attvalues>
+				</node>
+				<node id="10" label="MOS.WORD.A.1.1">
+					<attvalues>
+						<attvalue id="0" value="SKILL"/>
+						<attvalue id="1" value="Creating new blank documents"/>
+						<attvalue id="2" value="PREREQUISITESKILL"/>
+						<attvalue id="3" value="STRONG"/>
+					</attvalues>
+				</node>
+				<node id="11" label="MOS.WORD.B.2">
+					<attvalues>
+						<attvalue id="0" value="SKILL"/>
+						<attvalue id="1" value="format text and paragraphs"/>
+						<attvalue id="2" value="PARENTSKILL"/>
+					</attvalues>
+				</node>
+				<node id="12" label="MOS.WORD.C.3">
+					<attvalues>
+						<attvalue id="0" value="SKILL"/>
+						<attvalue id="1" value="Create and modify a list"/>
+						<attvalue id="2" value="PARENTSKILL"/>
+					</attvalues>
+				</node>
+				<node id="13" label="MOS.WORD.C.4">
+					<attvalues>
+						<attvalue id="0" value="SKILL"/>
+						<attvalue id="1" value="Create and modify a multi level list"/>
+						<attvalue id="2" value="PARENTSKILL"/>
+					</attvalues>
+				</node>
+				<node id="14" label="CHUNK.001">
+					<attvalues>
+						<attvalue id="0" value="CHUNK"/>
+						<attvalue id="1" value="PDF: Create A Multi Level List"/>
+						<attvalue id="4" value="Reading"/>
+						<attvalue id="5" value="PDF"/>
+						<attvalue id="6" value="/zip file"/>
+						<attvalue id="7" value="30"/>
+						<attvalue id="8" value="30"/>
+					</attvalues>
+				</node>
+				<node id="15" label="CHUNK.003">
+					<attvalues>
+						<attvalue id="0" value="CHUNK"/>
+						<attvalue id="1" value="Video: Create Multi Level List"/>
+						<attvalue id="4" value="Reading"/>
+						<attvalue id="5" value="Video"/>
+						<attvalue id="6" value="https://www.youtube.com/watch?v=qPqLUxAUvXM"/>
+						<attvalue id="7" value="30"/>
+						<attvalue id="8" value="30"/>
+					</attvalues>
+				</node>
+				<node id="16" label="CHUNK.005">
+					<attvalues>
+						<attvalue id="0" value="CHUNK"/>
+						<attvalue id="1" value="Simulation: Creating a Bulleted List - GO13.WD13.01.1B.06.T1"/>
+						<attvalue id="4" value="Practice"/>
+						<attvalue id="5" value="Simulation"/>
+						<attvalue id="6" value="http://dev2.comprotechnologies.com/simsjul31/sim5frame.aspx?resLinkID=TASKID:GO13.WD13.01.1B.07.T1"/>
+						<attvalue id="7" value="30"/>
+						<attvalue id="8" value="30"/>
+					</attvalues>
+				</node>
+				<node id="17" label="CHUNK.004">
+					<attvalues>
+						<attvalue id="0" value="CHUNK"/>
+						<attvalue id="1" value="PDF: Create a New Multilevel Style"/>
+						<attvalue id="4" value="Reading"/>
+						<attvalue id="5" value="PDF"/>
+						<attvalue id="6" value="/zip file"/>
+						<attvalue id="7" value="30"/>
+						<attvalue id="8" value="30"/>
+					</attvalues>
+				</node>
+				<node id="18" label="CHUNK.002">
+					<attvalues>
+					   <attvalue id="0" value="CHUNK"/>
+						<attvalue id="1" value="PDF: Applying Multilevel Style"/>
+						<attvalue id="4" value="Reading"/>
+						<attvalue id="5" value="PDF"/>
+						<attvalue id="6" value="/zip file"/>
+						<attvalue id="7" value="30"/>
+						<attvalue id="8" value="30"/>
+					</attvalues>
+				</node>
+				<node id="19" label="CHUNK.008">
+					<attvalues>
+						<attvalue id="0" value="CHUNK"/>
+						<attvalue id="1" value="Video: Modifying Multivel Level Style"/>
+						<attvalue id="4" value="Video"/>
+						<attvalue id="5" value="MP4"/>
+						<attvalue id="6" value="https://www.youtube.com/watch?v=qPqLUxAUvXM"/>
+						<attvalue id="7" value="30"/>
+						<attvalue id="8" value="30"/>
+					</attvalues>
+				</node>
+				<node id="20" label="CHUNK.009">
+					<attvalues>
+						<attvalue id="0" value="CHUNK"/>
+						<attvalue id="1" value="PDF: Customizing Multilevel Lists"/>
+						<attvalue id="4" value="Reading"/>
+						<attvalue id="5" value="PDF"/>
+						<attvalue id="6" value="/zip file"/>
+						<attvalue id="7" value="30"/>
+						<attvalue id="8" value="30"/>
+					</attvalues>
+				</node>
+				<node id="21" label="CHUNK.006">
+					<attvalues>
+						<attvalue id="0" value="CHUNK"/>
+						<attvalue id="1" value="Simulation: Creating a numbered lists - GO13.WD13.01.1B.07.T1"/>
+						<attvalue id="4" value="Practice"/>
+						<attvalue id="5" value="Simulation"/>
+						<attvalue id="6" value="http://dev2.comprotechnologies.com/simsjul31/sim5frame.aspx?resLinkID=TASKID:GO13.WD13.01.1B.07.T1"/>
+						<attvalue id="7" value="30"/>
+						<attvalue id="8" value="30"/>
+					</attvalues>
+				</node>
+				<node id="22" label="CHUNK.007">
+					<attvalues>
+						<attvalue id="0" value="CHUNK"/>
+						<attvalue id="1" value="Simulation: Customizing Bullets - GO13.WD13.01.1B.08.T1"/>
+						<attvalue id="4" value="Practice"/>
+						<attvalue id="5" value="Simulation"/>
+						<attvalue id="6" value="http://dev2.comprotechnologies.com/simsjul31/sim5frame.aspx?resLinkID=TASKID:GO13.WD13.01.1B.07.T1"/>
+						<attvalue id="7" value="30"/>
+						<attvalue id="8" value="30"/>
+					</attvalues>
+				</node>
+				<node id="23" label="CHUNK.010.1">
+					<attvalues>
+						<attvalue id="0" value="CHUNK"/>
+						<attvalue id="1" value="Quiz 1: Multi Level List"/>
+						<attvalue id="4" value="Assessment"/>
+						<attvalue id="5" value="QT1"/>
+						<attvalue id="6" value="/zip file"/>
+						<attvalue id="7" value="30"/>
+						<attvalue id="8" value="30"/>
+					</attvalues>
+				</node>
+				<node id="24" label="CHUNK.010.2">
+					<attvalues>
+						<attvalue id="0" value="CHUNK"/>
+						<attvalue id="1" value="Quiz 2: Multi Level List"/>
+						<attvalue id="4" value="Assessment"/>
+						<attvalue id="5" value="QT2"/>
+						<attvalue id="6" value="/zip file"/>
+						<attvalue id="7" value="30"/>
+						<attvalue id="8" value="30"/>
+					</attvalues>
+				</node>
+				<node id="25" label="CHUNK.010.3">
+					<attvalues>
+						<attvalue id="0" value="CHUNK"/>
+						<attvalue id="1" value="Quiz 3: Multi Level List"/>
+						<attvalue id="4" value="Assessment"/>
+						<attvalue id="5" value="QT3"/>
+						<attvalue id="6" value="/zip file"/>
+						<attvalue id="7" value="30"/>
+						<attvalue id="8" value="30"/>
+					</attvalues>
+				</node>
+			</nodes>
+			<edges>
+				<edge id="1" source="13" target="0" weight="1"/>
+				<edge id="2" source="13" target="1" weight="1"/>
+				<edge id="3" source="13" target="2" weight="1"/>
+				<edge id="4" source="12" target="3" weight="1"/>
+				<edge id="5" source="12" target="6" weight="1"/>
+				<edge id="6" source="12" target="4" weight="1"/>
+				<edge id="7" source="12" target="7" weight="1"/>
+				<edge id="8" source="12" target="8" weight="1"/>
+				<edge id="9" source="11" target="5" weight="1"/>
+				
+				<edge id="10" source="10" target="3" weight="1"/>
+				<edge id="11" source="3" target="6" weight="1"/>
+				<edge id="12" source="5" target="10" weight="1"/>
+				<edge id="13" source="3" target="0" weight="1"/>
+				<edge id="14" source="4" target="0" weight="1"/>
+				<edge id="15" source="0" target="1" weight="1"/>
+				<edge id="16" source="4" target="2" weight="1"/>
+				<edge id="17" source="5" target="2" weight="1"/>
+				<edge id="18" source="6" target="2" weight="1"/>
+				<edge id="19" source="7" target="2" weight="1"/>
+				<edge id="20" source="8" target="2" weight="1"/>
+				
+				<edge id="21" source="0" target="21" weight="1"/>
+				<edge id="22" source="1" target="22" weight="1"/>
+				<edge id="23" source="2" target="23" weight="1"/>
+				
+				<edge id="24" source="14" target="0" weight="1"/>
+				<edge id="25" source="15" target="0" weight="1"/>
+				<edge id="26" source="16" target="0" weight="1"/>
+				<edge id="27" source="23" target="0" weight="1"/>
+				<edge id="28" source="18" target="1" weight="1"/>
+				<edge id="29" source="17" target="1" weight="1"/>
+				<edge id="30" source="21" target="1" weight="1"/>
+				<edge id="31" source="24" target="1" weight="1"/>
+				<edge id="32" source="19" target="2" weight="1"/>
+				<edge id="33" source="20" target="2" weight="1"/>
+				<edge id="34" source="25" target="2" weight="1"/>
+				<edge id="35" source="9" target="10" weight="1"/>
+				<edge id="36" source="22" target="2" weight="1"/>
+				
+			</edges>
+		</graph>
+	</gexf>

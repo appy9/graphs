@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd">
+	<meta>
+		<creator>Gephi 0.8.1</creator>
+		<description>
+			<minWeight>1</minWeight><!-- minimum weight for the edges -->
+			<maxWeight>5</maxWeight><!-- maximum weight for the edges -->
+		</description>
+	</meta>
+	<graph defaultedgetype="directed" mode="static">
+		<attributes class="node">
+			<attribute id="0" title="Node Type" type="string">
+				<options>Skill|Chunk</options>
+			</attribute>
+			<attribute id="1" title="Node Name" type="string"/>
+			<attribute id="2" title="Node Subtype" type="string">
+				<default>NULL</default>
+				<options>Parent Skill|Primary Skill|Prerequisite Skill</options>
+			</attribute>
+			<attribute id="3" title="Chunk Interaction Type" type="string"/>
+			<attribute id="4" title="Chunk File Type" type="string"/>
+			<attribute id="5" title="chunk URL" type="string"/>
+			<attribute id="6" title="Maximum Score" type="string"/>
+		</attributes>
+		<nodes>
+            <node id="5b9f5901-9fd7-11e5-b5f2-001e8cf4df0d" label="CHUNK.PDF.1">
+                <attvalues>
+                    <attvalue id="0" value="Chunk"/>
+                    <attvalue id="1" value="PDF: Create A Multi Level List"/>
+                    <attvalue id="3" value="Reading"/>
+                    <attvalue id="4" value="PDF"/>
+                    <attvalue id="5" value="/zip file"/>
+                    <attvalue id="6" value="30"/>
+                </attvalues>
+            </node>
+            <node id="5d658821-9fd7-11e5-b5f2-001e8cf4df0d" label="CHUNK.VIDEO.3">
+                <attvalues>
+                    <attvalue id="0" value="Chunk"/>
+                    <attvalue id="1" value="Video: Create Multi Level List"/>
+                    <attvalue id="3" value="Reading"/>
+                    <attvalue id="4" value="Video"/>
+                    <attvalue id="5" value="https://www.youtube.com/watch?v=qPqLUxAUvXM"/>
+                    <attvalue id="6" value="30"/>
+                </attvalues>
+            </node>
+            <node id="5d658a78-9fd7-11e5-b5f2-001e8cf4df0d" label="CHUNK.SIM.5">
+                <attvalues>
+                    <attvalue id="0" value="Chunk"/>
+                    <attvalue id="1" value="Simulation: Creating a Bulleted List - GO13.WD13.01.1B.06.T1"/>
+                    <attvalue id="3" value="Practice"/>
+                    <attvalue id="4" value="Simulation"/>
+                    <attvalue id="5" value="http://dev2.comprotechnologies.com/simsjul31/sim5frame.aspx?resLinkID=TASKID:GO13.WD13.01.1B.07.T1"/>
+                    <attvalue id="6" value="30"/>
+                </attvalues>
+            </node>
+            <node id="5d658b0a-9fd7-11e5-b5f2-001e8cf4df0d" label="CHUNK.PDF.4">
+                <attvalues>
+                    <attvalue id="0" value="Chunk"/>
+                    <attvalue id="1" value="PDF: Create a New Multilevel Style"/>
+                    <attvalue id="3" value="Reading"/>
+                    <attvalue id="4" value="PDF"/>
+                    <attvalue id="5" value="/zip file"/>
+                    <attvalue id="6" value="30"/>
+                </attvalues>
+            </node>
+            <node id="5f51594c-9fd7-11e5-b5f2-001e8cf4df0d" label="CHUNK.PDF.2">
+                <attvalues>
+                   <attvalue id="0" value="Chunk"/>
+                    <attvalue id="1" value="PDF: Applying Multilevel Style"/>
+                    <attvalue id="3" value="Reading"/>
+                    <attvalue id="4" value="PDF"/>
+                    <attvalue id="5" value="/zip file"/>
+                    <attvalue id="6" value="30"/>
+                </attvalues>
+            </node>
+            <node id="5f515cee-9fd7-11e5-b5f2-001e8cf4df0d" label="CHUNK.VIDEO.8">
+                <attvalues>
+                    <attvalue id="0" value="Chunk"/>
+                    <attvalue id="1" value="Video: Modifying Multivel Level Style"/>
+                    <attvalue id="3" value="Video"/>
+                    <attvalue id="4" value="MP4"/>
+                    <attvalue id="5" value="https://www.youtube.com/watch?v=qPqLUxAUvXM"/>
+                    <attvalue id="6" value="30"/>
+                </attvalues>
+            </node>
+            <node id="5f515d80-9fd7-11e5-b5f2-001e8cf4df0d" label="CHUNK.PDF.9">
+                <attvalues>
+                    <attvalue id="0" value="Chunk"/>
+                    <attvalue id="1" value="PDF: Customizing Multilevel Lists"/>
+                    <attvalue id="3" value="Reading"/>
+                    <attvalue id="4" value="PDF"/>
+                    <attvalue id="5" value="/zip file"/>
+                    <attvalue id="6" value="30"/>
+                </attvalues>
+            </node>
+            <node id="60fa2f5a-9fd7-11e5-b5f2-001e8cf4df0d" label="CHUNK.SIM.6">
+                <attvalues>
+                    <attvalue id="0" value="Chunk"/>
+                    <attvalue id="1" value="Simulation: Creating a numbered lists - GO13.WD13.01.1B.07.T1"/>
+                    <attvalue id="3" value="Practice"/>
+                    <attvalue id="4" value="Simulation"/>
+                    <attvalue id="5" value="http://dev2.comprotechnologies.com/simsjul31/sim5frame.aspx?resLinkID=TASKID:GO13.WD13.01.1B.07.T1"/>
+                    <attvalue id="6" value="30"/>
+                </attvalues>
+            </node>
+            <node id="60fa3197-9fd7-11e5-b5f2-001e8cf4df0d" label="CHUNK.SIM.7">
+                <attvalues>
+                    <attvalue id="0" value="Chunk"/>
+                    <attvalue id="1" value="Simulation: Customizing Bullets - GO13.WD13.01.1B.08.T1"/>
+                    <attvalue id="3" value="Practice"/>
+                    <attvalue id="4" value="Simulation"/>
+                    <attvalue id="5" value="http://dev2.comprotechnologies.com/simsjul31/sim5frame.aspx?resLinkID=TASKID:GO13.WD13.01.1B.07.T1"/>
+                    <attvalue id="6" value="30"/>
+                </attvalues>
+            </node>
+            <node id="60fa3225-9fd7-11e5-b5f2-001e8cf4df0d" label="CHUNK.QUIZ.10.1">
+                <attvalues>
+                    <attvalue id="0" value="Chunk"/>
+                    <attvalue id="1" value="Quiz 1: Multi Level List"/>
+                    <attvalue id="3" value="Assessment"/>
+                    <attvalue id="4" value="QT1"/>
+                    <attvalue id="5" value="/zip file"/>
+                    <attvalue id="6" value="30"/>
+                </attvalues>
+            </node>
+            <node id="e49dc55a-9fd6-11e5-b5f2-001e8cf4df0d" label="CHUNK.QUIZ.10.2">
+                <attvalues>
+                    <attvalue id="0" value="Chunk"/>
+                    <attvalue id="1" value="Quiz 2: Multi Level List"/>
+                    <attvalue id="3" value="Assessment"/>
+                    <attvalue id="4" value="QT2"/>
+                    <attvalue id="5" value="/zip file"/>
+                    <attvalue id="6" value="30"/>
+                </attvalues>
+            </node>
+            <node id="e49dc8ad-9fd6-11e5-b5f2-001e8cf4df0d" label="CHUNK.QUIZ.10.3">
+                <attvalues>
+                    <attvalue id="0" value="Chunk"/>
+                    <attvalue id="1" value="Quiz 3: Multi Level List"/>
+                    <attvalue id="3" value="Assessment"/>
+                    <attvalue id="4" value="QT3"/>
+                    <attvalue id="5" value="/zip file"/>
+                    <attvalue id="6" value="30"/>
+                </attvalues>
+            </node>
+			<node id="562fc512-9fd7-11e5-b5f2-001e8cf4df0d" label="SKL.MOS.WORD.C.3.4">
+				<attvalues>
+					<attvalue id="0" value="Skill"/>
+					<attvalue id="1" value="Adding numbering or bullets"/>
+					<attvalue id="2" value="Prerequisite Skill"/>
+					<attvalue id="3" value="STRONG"/>
+				</attvalues>
+			</node>
+			<node id="562fc78e-9fd7-11e5-b5f2-001e8cf4df0d" label="SKL.MOS.WORD.C.3.6">
+				<attvalues>
+					<attvalue id="0" value="Skill"/>
+					<attvalue id="1" value="Modifying list indentation"/>
+					<attvalue id="2" value="Prerequisite Skill"/>
+				</attvalues>
+			</node>
+			<node id="562fc830-9fd7-11e5-b5f2-001e8cf4df0d" label="SKL.MOS.WORD.B.2.1">
+				<attvalues>
+					<attvalue id="0" value="Skill"/>
+					<attvalue id="1" value="Changing font attributes"/>
+					<attvalue id="2" value="Prerequisite Skill"/>
+				</attvalues>
+			</node>
+			<node id="5855120c-9fd7-11e5-b5f2-001e8cf4df0d" label="SKL.MOS.WORD.C.3.5">
+				<attvalues>
+					<attvalue id="0" value="Skill"/>
+					<attvalue id="1" value="Creating custom bullets"/>
+					<attvalue id="2" value="Prerequisite Skill"/>
+				</attvalues>
+			</node>
+			<node id="58551491-9fd7-11e5-b5f2-001e8cf4df0d" label="SKL.MOS.WORD.C.3.8">
+				<attvalues>
+					<attvalue id="0" value="Skill"/>
+					<attvalue id="1" value="Increasing and decreasing list levels"/>
+					<attvalue id="2" value="Prerequisite Skill"/>
+				</attvalues>
+			</node>
+			<node id="58551512-9fd7-11e5-b5f2-001e8cf4df0d" label="SKL.MOS.WORD.C.3.9">
+				<attvalues>
+					<attvalue id="0" value="Skill"/>
+					<attvalue id="1" value="Modifying Numbering"/>
+					<attvalue id="2" value="Prerequisite Skill"/>
+				</attvalues>
+			</node>
+			<node id="59f0a6e6-9fd7-11e5-b5f2-001e8cf4df0d" label="SKL.MOS.WORD.A.1">
+				<attvalues>
+					<attvalue id="0" value="Skill"/>
+					<attvalue id="1" value="Create a document"/>
+					<attvalue id="2" value="Prerequisite Skill"/>
+				</attvalues>
+			</node>
+			<node id="59f0a916-9fd7-11e5-b5f2-001e8cf4df0d" label="SKL.MOS.WORD.A.1.1">
+				<attvalues>
+					<attvalue id="0" value="Skill"/>
+					<attvalue id="1" value="Creating new blank documents"/>
+					<attvalue id="2" value="Prerequisite Skill"/>
+				</attvalues>
+			</node>
+			<node id="59f0a993-9fd7-11e5-b5f2-001e8cf4df0d" label="SKL.MOS.WORD.B.2">
+				<attvalues>
+					<attvalue id="0" value="Skill"/>
+					<attvalue id="1" value="format text and paragraphs"/>
+					<attvalue id="2" value="Parent Skill"/>
+				</attvalues>
+			</node>
+			<node id="5b9f55f7-9fd7-11e5-b5f2-001e8cf4df0d" label="SKL.MOS.WORD.C.3">
+				<attvalues>
+					<attvalue id="0" value="Skill"/>
+					<attvalue id="1" value="Create and modify a list"/>
+					<attvalue id="2" value="Parent Skill"/>
+				</attvalues>
+			</node>
+			<node id="5b9f5872-9fd7-11e5-b5f2-001e8cf4df0d" label="SKL.MOS.WORD.C.4">
+				<attvalues>
+					<attvalue id="0" value="Skill"/>
+					<attvalue id="1" value="Create and modify a multi level list"/>
+					<attvalue id="2" value="Parent Skill"/>
+				</attvalues>
+			</node>
+			<node id="5298ef9f-9fd7-11e5-b5f2-001e8cf4df0d" label="SKL.PR.MOS.WORD.C.4.1">
+                <attvalues>
+                    <attvalue id="0" value="Skill"/>
+                    <attvalue id="1" value="Adding a multi-level list"/>
+                    <attvalue id="2" value="Primary Skill"/>
+                </attvalues>
+            </node>
+            <node id="5298f31d-9fd7-11e5-b5f2-001e8cf4df0d" label="SKL.PR.MOS.WORD.C.4.2">
+                <attvalues>
+                    <attvalue id="0" value="Skill"/>
+                    <attvalue id="1" value="Creating custom multi level list"/>
+                    <attvalue id="2" value="Primary Skill"/>
+                </attvalues>
+            </node>
+            <node id="5298f3a8-9fd7-11e5-b5f2-001e8cf4df0d" label="SKL.PR.MOS.WORD.C.4.3">
+                <attvalues>
+                    <attvalue id="0" value="Skill"/>
+                    <attvalue id="1" value="Modifying style of a custom multi level list"/>
+                    <attvalue id="2" value="Primary Skill"/>
+                </attvalues>
+            </node>
+		</nodes>
+		<edges>
+			<edge id="86795504-a232-11e5-939d-001e8cf4df0d" source="5b9f5872-9fd7-11e5-b5f2-001e8cf4df0d" target="5298ef9f-9fd7-11e5-b5f2-001e8cf4df0d" weight="1"/>
+			<edge id="86795720-a232-11e5-939d-001e8cf4df0d" source="5b9f5872-9fd7-11e5-b5f2-001e8cf4df0d" target="5298f31d-9fd7-11e5-b5f2-001e8cf4df0d" weight="1"/>
+			<edge id="86795779-a232-11e5-939d-001e8cf4df0d" source="5b9f5872-9fd7-11e5-b5f2-001e8cf4df0d" target="5298f3a8-9fd7-11e5-b5f2-001e8cf4df0d" weight="1"/>
+			<edge id="87afbc89-a232-11e5-939d-001e8cf4df0d" source="5b9f55f7-9fd7-11e5-b5f2-001e8cf4df0d" target="562fc512-9fd7-11e5-b5f2-001e8cf4df0d" weight="1"/>
+			<edge id="87afbed3-a232-11e5-939d-001e8cf4df0d" source="5b9f55f7-9fd7-11e5-b5f2-001e8cf4df0d" target="5855120c-9fd7-11e5-b5f2-001e8cf4df0d" weight="1"/>
+			<edge id="87afbf9a-a232-11e5-939d-001e8cf4df0d" source="5b9f55f7-9fd7-11e5-b5f2-001e8cf4df0d" target="562fc78e-9fd7-11e5-b5f2-001e8cf4df0d" weight="1"/>
+			<edge id="88004350-a232-11e5-939d-001e8cf4df0d" source="5b9f55f7-9fd7-11e5-b5f2-001e8cf4df0d" target="58551491-9fd7-11e5-b5f2-001e8cf4df0d" weight="1"/>
+			<edge id="88004586-a232-11e5-939d-001e8cf4df0d" source="5b9f55f7-9fd7-11e5-b5f2-001e8cf4df0d" target="58551512-9fd7-11e5-b5f2-001e8cf4df0d" weight="1"/>
+			<edge id="88004618-a232-11e5-939d-001e8cf4df0d" source="59f0a993-9fd7-11e5-b5f2-001e8cf4df0d" target="562fc830-9fd7-11e5-b5f2-001e8cf4df0d" weight="1"/>
+			<edge id="88288807-a232-11e5-939d-001e8cf4df0d" source="59f0a916-9fd7-11e5-b5f2-001e8cf4df0d" target="562fc512-9fd7-11e5-b5f2-001e8cf4df0d" weight="1"/>
+			<edge id="88288a40-a232-11e5-939d-001e8cf4df0d" source="562fc512-9fd7-11e5-b5f2-001e8cf4df0d" target="5855120c-9fd7-11e5-b5f2-001e8cf4df0d" weight="1"/>
+			<edge id="88288ac1-a232-11e5-939d-001e8cf4df0d" source="562fc830-9fd7-11e5-b5f2-001e8cf4df0d" target="59f0a916-9fd7-11e5-b5f2-001e8cf4df0d" weight="1"/>
+			<edge id="88497d52-a232-11e5-939d-001e8cf4df0d" source="562fc512-9fd7-11e5-b5f2-001e8cf4df0d" target="5298ef9f-9fd7-11e5-b5f2-001e8cf4df0d" weight="5"/>
+			<edge id="88497f95-a232-11e5-939d-001e8cf4df0d" source="562fc78e-9fd7-11e5-b5f2-001e8cf4df0d" target="5298ef9f-9fd7-11e5-b5f2-001e8cf4df0d" weight="5"/>
+			<edge id="88498023-a232-11e5-939d-001e8cf4df0d" source="5298ef9f-9fd7-11e5-b5f2-001e8cf4df0d" target="5298f31d-9fd7-11e5-b5f2-001e8cf4df0d" weight="1"/>
+			<edge id="886802fe-a232-11e5-939d-001e8cf4df0d" source="562fc78e-9fd7-11e5-b5f2-001e8cf4df0d" target="5298f3a8-9fd7-11e5-b5f2-001e8cf4df0d" weight="5"/>
+			<edge id="88680541-a232-11e5-939d-001e8cf4df0d" source="562fc830-9fd7-11e5-b5f2-001e8cf4df0d" target="5298f3a8-9fd7-11e5-b5f2-001e8cf4df0d" weight="5"/>
+			<edge id="886805cf-a232-11e5-939d-001e8cf4df0d" source="5855120c-9fd7-11e5-b5f2-001e8cf4df0d" target="5298f3a8-9fd7-11e5-b5f2-001e8cf4df0d" weight="1"/>
+			<edge id="8887c037-a232-11e5-939d-001e8cf4df0d" source="58551491-9fd7-11e5-b5f2-001e8cf4df0d" target="5298f3a8-9fd7-11e5-b5f2-001e8cf4df0d" weight="3"/>
+			<edge id="8887c3bf-a232-11e5-939d-001e8cf4df0d" source="58551512-9fd7-11e5-b5f2-001e8cf4df0d" target="5298f3a8-9fd7-11e5-b5f2-001e8cf4df0d" weight="5"/>
+			<edge id="8887c457-a232-11e5-939d-001e8cf4df0d" source="5298ef9f-9fd7-11e5-b5f2-001e8cf4df0d" target="60fa2f5a-9fd7-11e5-b5f2-001e8cf4df0d" weight="1"/>
+			<edge id="88a51fb0-a232-11e5-939d-001e8cf4df0d" source="5298f31d-9fd7-11e5-b5f2-001e8cf4df0d" target="60fa3197-9fd7-11e5-b5f2-001e8cf4df0d" weight="1"/>
+			<edge id="88a521e3-a232-11e5-939d-001e8cf4df0d" source="5298f3a8-9fd7-11e5-b5f2-001e8cf4df0d" target="60fa3225-9fd7-11e5-b5f2-001e8cf4df0d" weight="1"/>
+			<edge id="88a52264-a232-11e5-939d-001e8cf4df0d" source="5b9f5901-9fd7-11e5-b5f2-001e8cf4df0d" target="5298ef9f-9fd7-11e5-b5f2-001e8cf4df0d" weight="1"/>
+			<edge id="88c4c4c8-a232-11e5-939d-001e8cf4df0d" source="5d658821-9fd7-11e5-b5f2-001e8cf4df0d" target="5298ef9f-9fd7-11e5-b5f2-001e8cf4df0d" weight="1"/>
+			<edge id="88c4c6fe-a232-11e5-939d-001e8cf4df0d" source="5d658a78-9fd7-11e5-b5f2-001e8cf4df0d" target="5298ef9f-9fd7-11e5-b5f2-001e8cf4df0d" weight="1"/>
+			<edge id="88c4c77f-a232-11e5-939d-001e8cf4df0d" source="60fa3225-9fd7-11e5-b5f2-001e8cf4df0d" target="5298ef9f-9fd7-11e5-b5f2-001e8cf4df0d" weight="1"/>
+			<edge id="88e4818d-a232-11e5-939d-001e8cf4df0d" source="5f51594c-9fd7-11e5-b5f2-001e8cf4df0d" target="5298f31d-9fd7-11e5-b5f2-001e8cf4df0d" weight="1"/>
+			<edge id="88e483bd-a232-11e5-939d-001e8cf4df0d" source="5d658b0a-9fd7-11e5-b5f2-001e8cf4df0d" target="5298f31d-9fd7-11e5-b5f2-001e8cf4df0d" weight="1"/>
+			<edge id="88e48441-a232-11e5-939d-001e8cf4df0d" source="60fa2f5a-9fd7-11e5-b5f2-001e8cf4df0d" target="5298f31d-9fd7-11e5-b5f2-001e8cf4df0d" weight="1"/>
+			<edge id="89001828-a232-11e5-939d-001e8cf4df0d" source="e49dc55a-9fd6-11e5-b5f2-001e8cf4df0d" target="5298f31d-9fd7-11e5-b5f2-001e8cf4df0d" weight="1"/>
+			<edge id="890019d3-a232-11e5-939d-001e8cf4df0d" source="5f515cee-9fd7-11e5-b5f2-001e8cf4df0d" target="5298f3a8-9fd7-11e5-b5f2-001e8cf4df0d" weight="1"/>
+			<edge id="89001a29-a232-11e5-939d-001e8cf4df0d" source="5f515d80-9fd7-11e5-b5f2-001e8cf4df0d" target="5298f3a8-9fd7-11e5-b5f2-001e8cf4df0d" weight="1"/>
+			<edge id="89209f40-a232-11e5-939d-001e8cf4df0d" source="e49dc8ad-9fd6-11e5-b5f2-001e8cf4df0d" target="5298f3a8-9fd7-11e5-b5f2-001e8cf4df0d" weight="1"/>
+			<edge id="8920a0ef-a232-11e5-939d-001e8cf4df0d" source="59f0a6e6-9fd7-11e5-b5f2-001e8cf4df0d" target="59f0a916-9fd7-11e5-b5f2-001e8cf4df0d" weight="1"/>
+			<edge id="8920a14f-a232-11e5-939d-001e8cf4df0d" source="60fa3197-9fd7-11e5-b5f2-001e8cf4df0d" target="5298f3a8-9fd7-11e5-b5f2-001e8cf4df0d" weight="1"/>
+		</edges>
+	</graph>
+</gexf>
