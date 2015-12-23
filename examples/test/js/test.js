@@ -12,13 +12,13 @@ var graphViewer_config = {
             color: '#BEBEBE',
             startColor: '#ECECEC',
             size: 60,
-            hidden: false
+            hidden: true
         },
         'Parent Skill': {
             color: '#5FCABE',
             startColor: '#E3EDFF',
             size: 60,
-            hidden: false
+            hidden: true
         },
         'Chunk': {
             color: '#FFF',
@@ -52,7 +52,7 @@ var graphViewer_config = {
             defaultNodeBorderColor: '#777',
             edgeColor: 'source',
             drawLabels: false,
-            autoRescale : true,
+            autoRescale : false,
             drawEdges:false
         }
     }/*,

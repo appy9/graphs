@@ -12,9 +12,17 @@ sigma.classes.graph.addMethod('getNodesCountByType', function() {
         nodeType = {};
 
     for (k in this.nodesArray){
-        if(!nodeType[this.nodesArray[k].attributes["Node Subtype"]])
-            nodeType[this.nodesArray[k].attributes["Node Subtype"]] = [];
-        nodeType[this.nodesArray[k].attributes["Node Subtype"]].push(this.nodesArray[k]);
+        if([this.nodesArray[k].attributes["Node Subtype"]] != "NULL") {
+            if (!nodeType[this.nodesArray[k].attributes["Node Subtype"]])
+                nodeType[this.nodesArray[k].attributes["Node Subtype"]] = [];
+            nodeType[this.nodesArray[k].attributes["Node Subtype"]].push(this.nodesArray[k]);
+        }
+        if([this.nodesArray[k].attributes["Node Subtype"]] == "NULL"){
+            if(!nodeType[this.nodesArray[k].attributes["Chunk Interaction Type"]])
+                nodeType[this.nodesArray[k].attributes["Chunk Interaction Type"]] = [];
+            nodeType[this.nodesArray[k].attributes["Chunk Interaction Type"]].push(this.nodesArray[k]);
+        }
+
     }
     return nodeType;
 });

@@ -26,7 +26,7 @@ sigma.parsers.gexf(graphViewer_config.input,
 
         adaptiveGraph.applyPlugins(sigmaInstance);
 
-        adaptiveGraph.registerEvents(sigmaInstance);
+        //adaptiveGraph.registerEvents(sigmaInstance);
 
         console.log(sigmaInstance.isForceAtlas2Running());
         sigmaInstance.refresh();
