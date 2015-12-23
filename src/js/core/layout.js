@@ -34,7 +34,7 @@ adaptiveGraph.layout = function(sigmaInstance){
                         var count = nodeType[node.type].length;
                         var region = (width) / (count + 1);
                         toKeep[k].x = (region) * j - factor;
-                        toKeep[k].y = -50 - (chunkCount * 50);
+                        toKeep[k].y = 40 -(chunkCount * 45);
                     }
                 }
 
