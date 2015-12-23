@@ -53,10 +53,10 @@ var graphViewer_config = {
             minNodeSize: 1,
             maxNodeSize: 80,
             defaultNodeBorderColor: '#777',
-            edgeColor: 'source',
+            edgeColor: '#000',
             drawLabels: false,
             autoRescale : false,
-            drawEdges:false,
+            drawEdges:true,
             enableHovering: false
         }
     }/*,
