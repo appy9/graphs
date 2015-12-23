@@ -14,6 +14,7 @@ adaptiveGraph.Rendering = function (sigmaInstance) {
         n.color = graphViewer_config.nodeConfig[n.attributes['Node Type']] ? graphViewer_config.nodeConfig[n.attributes['Node Type']].color : graphViewer_config.nodeConfig[n.attributes['Node Subtype']].color;
         n.size = graphViewer_config.nodeConfig[n.attributes['Node Type']] ? graphViewer_config.nodeConfig[n.attributes['Node Type']].size : graphViewer_config.nodeConfig[n.attributes['Node Subtype']].size;
         n.hidden = graphViewer_config.nodeConfig[n.attributes['Node Type']] ? graphViewer_config.nodeConfig[n.attributes['Node Type']].hidden : graphViewer_config.nodeConfig[n.attributes['Node Subtype']].hidden;
+        n.borderClr = graphViewer_config.nodeConfig[n.attributes['Node Type']] ? graphViewer_config.nodeConfig[n.attributes['Node Type']].borderClr : graphViewer_config.nodeConfig[n.attributes['Node Subtype']].borderClr
         if(n.attributes['Node Subtype'] == "NULL")
             n.type =  n.attributes['Chunk Interaction Type'];
         else

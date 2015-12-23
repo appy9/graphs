@@ -6,7 +6,9 @@ var graphViewer_config = {
             color: '#A5C5FF',
             startColor: '#E6EDFF',
             size: 80,
-            hidden: false
+            hidden: false,
+            borderClr:'rgb(89,137,192)'
+
         },
         'Prerequisite Skill': {
             color: '#BEBEBE',
@@ -24,7 +26,8 @@ var graphViewer_config = {
             color: '#FFF',
             startColor: 'red',
             size: 60,
-            hidden: false
+            hidden: false,
+            borderClr:'rgb(247,150,70)'
         }
     },
     plugins : {
@@ -53,7 +56,8 @@ var graphViewer_config = {
             edgeColor: 'source',
             drawLabels: false,
             autoRescale : false,
-            drawEdges:false
+            drawEdges:false,
+            enableHovering: false
         }
     }/*,
     callBacks : {

@@ -20,10 +20,10 @@ adaptiveGraph.layout = function(sigmaInstance){
                     if(toKeep[k].x==0){
                         p++;
                         var count = nodeType[toKeep[k].type].length ;
-                        var region = (width-200)/(count+1);
+                        var region = (width-500)/(count+1);
                         console.log('assessment',region,p);
                         console.log(region,p);
-                        toKeep[k].x = (region)*p-factor+100;
+                        toKeep[k].x = (region)*p-factor+250;
                         toKeep[k].y = 280;
                     }
 
