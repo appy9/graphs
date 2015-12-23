@@ -7,7 +7,7 @@ adaptiveGraph.Rendering = function (sigmaInstance) {
         l= 0,
         L =26;
     var nodeType = sigmaInstance.graph.getNodesCountByType();
-    console.log(nodeType);
+    //console.log(nodeType);
     sigmaInstance.graph.nodes().forEach(function (n) {
         n.x = 0;
         n.y = 0;
@@ -20,6 +20,8 @@ adaptiveGraph.Rendering = function (sigmaInstance) {
             n.type = n.attributes['Node Subtype'];
         n.originalColor = n.color;
         n.startColor = graphViewer_config.nodeConfig[n.attributes['Node Type']] ? graphViewer_config.nodeConfig[n.attributes['Node Type']].color : graphViewer_config.nodeConfig[n.attributes['Node Subtype']].startColor;
+        n.belief = "0."+Math.ceil(Math.random()*100);
+        n.deviation = "0."+Math.ceil(Math.random()*10);
     });
     sigmaInstance.graph.edges().forEach(function (e) {
         e.type = "arrow";
