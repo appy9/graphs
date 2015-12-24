@@ -25,7 +25,7 @@ adaptiveGraph.Rendering = function (sigmaInstance) {
         n.deviation = "0."+Math.ceil(Math.random()*10);
     });
     sigmaInstance.graph.edges().forEach(function (e) {
-        e.type = "arrow";
+        //e.type = "arrow";
         //e.type = 'curve';
         e.originalColor = e.color;
     });

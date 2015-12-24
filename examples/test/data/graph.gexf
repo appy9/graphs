@@ -195,7 +195,7 @@
 					<attvalue id="6" value="30"/>
 				</attvalues>
 			</node>
-			<node id="60fa2f5a-9fd7-11e5-b5f2-001e8cf4df0d" label="CHUNK.SIM.6">
+			<node id="5298ef9f-9fd7-11e5-b5f2-001e8cf4df0d/60fa2f5a-9fd7-11e5-b5f2-001e8cf4df0d" label="CHUNK.SIM.6">
 				<attvalues>
 					<attvalue id="0" value="Chunk"/>
 					<attvalue id="1" value="Simulation: Creating a numbered lists - GO13.WD13.01.1B.07.T1"/>
@@ -205,16 +205,26 @@
 					<attvalue id="6" value="30"/>
 				</attvalues>
 			</node>
+			<node id="5298f31d-9fd7-11e5-b5f2-001e8cf4df0d/60fa2f5a-9fd7-11e5-b5f2-001e8cf4df0d" label="CHUNK.SIM.6">
+					<attvalues>
+						<attvalue id="0" value="Chunk"/>
+						<attvalue id="1" value="Simulation: Creating a numbered lists - GO13.WD13.01.1B.07.T1"/>
+						<attvalue id="3" value="Practice"/>
+						<attvalue id="4" value="Simulation"/>
+						<attvalue id="5" value="http://dev2.comprotechnologies.com/simsjul31/sim5frame.aspx?resLinkID=TASKID:GO13.WD13.01.1B.07.T1"/>
+						<attvalue id="6" value="30"/>
+					</attvalues>
+			</node>
 			<node id="5298f31d-9fd7-11e5-b5f2-001e8cf4df0d/60fa3197-9fd7-11e5-b5f2-001e8cf4df0d" label="CHUNK.SIM.7">
-            				<attvalues>
-            					<attvalue id="0" value="Chunk"/>
-            					<attvalue id="1" value="Simulation: Customizing Bullets - GO13.WD13.01.1B.08.T1"/>
-            					<attvalue id="3" value="Practice"/>
-            					<attvalue id="4" value="Simulation"/>
-            					<attvalue id="5" value="http://dev2.comprotechnologies.com/simsjul31/sim5frame.aspx?resLinkID=TASKID:GO13.WD13.01.1B.07.T1"/>
-            					<attvalue id="6" value="30"/>
-            				</attvalues>
-            			</node>
+					<attvalues>
+						<attvalue id="0" value="Chunk"/>
+						<attvalue id="1" value="Simulation: Customizing Bullets - GO13.WD13.01.1B.08.T1"/>
+						<attvalue id="3" value="Practice"/>
+						<attvalue id="4" value="Simulation"/>
+						<attvalue id="5" value="http://dev2.comprotechnologies.com/simsjul31/sim5frame.aspx?resLinkID=TASKID:GO13.WD13.01.1B.07.T1"/>
+						<attvalue id="6" value="30"/>
+					</attvalues>
+			</node>
 			<node id="5298f3a8-9fd7-11e5-b5f2-001e8cf4df0d/60fa3197-9fd7-11e5-b5f2-001e8cf4df0d" label="CHUNK.SIM.7">
 				<attvalues>
 					<attvalue id="0" value="Chunk"/>
@@ -277,7 +287,9 @@
 			<edge id="886805cf-a232-11e5-939d-001e8cf4df0d" source="5855120c-9fd7-11e5-b5f2-001e8cf4df0d" target="5298f3a8-9fd7-11e5-b5f2-001e8cf4df0d" weight="1"/>
 			<edge id="8887c037-a232-11e5-939d-001e8cf4df0d" source="58551491-9fd7-11e5-b5f2-001e8cf4df0d" target="5298f3a8-9fd7-11e5-b5f2-001e8cf4df0d" weight="3"/>
 			<edge id="8887c3bf-a232-11e5-939d-001e8cf4df0d" source="58551512-9fd7-11e5-b5f2-001e8cf4df0d" target="5298f3a8-9fd7-11e5-b5f2-001e8cf4df0d" weight="5"/>
-			<edge id="8887c457-a232-11e5-939d-001e8cf4df0d" source="5298ef9f-9fd7-11e5-b5f2-001e8cf4df0d" target="60fa2f5a-9fd7-11e5-b5f2-001e8cf4df0d" weight="1"/>
+
+			<edge id="8887c457-a232-11e5-939d-001e8cf4df0d" source="5298ef9f-9fd7-11e5-b5f2-001e8cf4df0d/60fa2f5a-9fd7-11e5-b5f2-001e8cf4df0d" target="5298ef9f-9fd7-11e5-b5f2-001e8cf4df0d" weight="1"/>
+
 			<edge id="88a51fb0-a232-11e5-939d-001e8cf4df0d" source="5298f31d-9fd7-11e5-b5f2-001e8cf4df0d/60fa3197-9fd7-11e5-b5f2-001e8cf4df0d" target="5298f31d-9fd7-11e5-b5f2-001e8cf4df0d" weight="1"/>
 			<edge id="88a521e3-a232-11e5-939d-001e8cf4df0d" source="5298f3a8-9fd7-11e5-b5f2-001e8cf4df0d" target="60fa3225-9fd7-11e5-b5f2-001e8cf4df0d" weight="1"/>
 			<edge id="88a52264-a232-11e5-939d-001e8cf4df0d" source="5b9f5901-9fd7-11e5-b5f2-001e8cf4df0d" target="5298ef9f-9fd7-11e5-b5f2-001e8cf4df0d" weight="1"/>
@@ -286,7 +298,9 @@
 			<edge id="88c4c77f-a232-11e5-939d-001e8cf4df0d" source="60fa3225-9fd7-11e5-b5f2-001e8cf4df0d" target="5298ef9f-9fd7-11e5-b5f2-001e8cf4df0d" weight="1"/>
 			<edge id="88e4818d-a232-11e5-939d-001e8cf4df0d" source="5f51594c-9fd7-11e5-b5f2-001e8cf4df0d" target="5298f31d-9fd7-11e5-b5f2-001e8cf4df0d" weight="1"/>
 			<edge id="88e483bd-a232-11e5-939d-001e8cf4df0d" source="5d658b0a-9fd7-11e5-b5f2-001e8cf4df0d" target="5298f31d-9fd7-11e5-b5f2-001e8cf4df0d" weight="1"/>
-			<edge id="88e48441-a232-11e5-939d-001e8cf4df0d" source="60fa2f5a-9fd7-11e5-b5f2-001e8cf4df0d" target="5298f31d-9fd7-11e5-b5f2-001e8cf4df0d" weight="1"/>
+
+			<edge id="88e48441-a232-11e5-939d-001e8cf4df0d" source="5298f31d-9fd7-11e5-b5f2-001e8cf4df0d/60fa2f5a-9fd7-11e5-b5f2-001e8cf4df0d" target="5298f31d-9fd7-11e5-b5f2-001e8cf4df0d" weight="1"/>
+
 			<edge id="89001828-a232-11e5-939d-001e8cf4df0d" source="e49dc55a-9fd6-11e5-b5f2-001e8cf4df0d" target="5298f31d-9fd7-11e5-b5f2-001e8cf4df0d" weight="1"/>
 			<edge id="890019d3-a232-11e5-939d-001e8cf4df0d" source="5f515cee-9fd7-11e5-b5f2-001e8cf4df0d" target="5298f3a8-9fd7-11e5-b5f2-001e8cf4df0d" weight="1"/>
 			<edge id="89001a29-a232-11e5-939d-001e8cf4df0d" source="5f515d80-9fd7-11e5-b5f2-001e8cf4df0d" target="5298f3a8-9fd7-11e5-b5f2-001e8cf4df0d" weight="1"/>

@@ -14,7 +14,7 @@ adaptiveGraph.layout = function(sigmaInstance){
             toKeep[nodeId] = node;
             console.log(region,j);
             node.x = (region)*j-factor;
-            node.y = 160;
+            node.y = 120;
             for (k in toKeep){
                 if(toKeep[k].type == "Assessment"){
                     if(toKeep[k].x==0){
@@ -24,7 +24,7 @@ adaptiveGraph.layout = function(sigmaInstance){
                         console.log('assessment',region,p);
                         console.log(region,p);
                         toKeep[k].x = (region)*p-factor+250;
-                        toKeep[k].y = 280;
+                        toKeep[k].y = 235;
                     }
 
                 }
