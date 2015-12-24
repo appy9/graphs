@@ -12,7 +12,7 @@ adaptiveGraph.layout = function(sigmaInstance){
             var factor = width/2;
             var region = width/(count+1);
             toKeep[nodeId] = node;
-            console.log(region,j);
+            //console.log(region,j);
             node.x = (region)*j-factor;
             node.y = 120;
             for (k in toKeep){
@@ -21,8 +21,8 @@ adaptiveGraph.layout = function(sigmaInstance){
                         p++;
                         var count = nodeType[toKeep[k].type].length ;
                         var region = (width-500)/(count+1);
-                        console.log('assessment',region,p);
-                        console.log(region,p);
+                        //console.log('assessment',region,p);
+                        //console.log(region,p);
                         toKeep[k].x = (region)*p-factor+250;
                         toKeep[k].y = 235;
                     }
@@ -44,7 +44,7 @@ adaptiveGraph.layout = function(sigmaInstance){
                         var count = nodeType[toKeep[k].type].length;
                         var width = sigmaInstance.renderers[0].width;
                         var region = width / count;
-                        console.log(region, m);
+                        //console.log(region, m);
                         toKeep[k].x = (region) * m;
                         toKeep[k].y = -100;
                     }
@@ -55,7 +55,7 @@ adaptiveGraph.layout = function(sigmaInstance){
                         var count = nodeType[toKeep[k].type].length ;
                         var width = sigmaInstance.renderers[0].width;
                         var region = width/count;
-                        console.log(region,n);
+                        //console.log(region,n);
                         toKeep[k].x = (region)*n;
                         toKeep[k].y = -200;
                     }

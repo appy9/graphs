@@ -27,6 +27,7 @@ adaptiveGraph.Rendering = function (sigmaInstance) {
     sigmaInstance.graph.edges().forEach(function (e) {
         //e.type = "arrow";
         //e.type = 'curve';
+        e.type = 'customArrow';
         e.originalColor = e.color;
     });
     //sigmaInstance.settings({drawEdges : true});

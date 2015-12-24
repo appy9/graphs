@@ -57,7 +57,8 @@ var graphViewer_config = {
             drawLabels: false,
             autoRescale : false,
             drawEdges:true,
-            enableHovering: false
+            enableHovering: false,
+            minArrowSize:15
         }
     }/*,
     callBacks : {
